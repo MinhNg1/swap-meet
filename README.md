@@ -72,7 +72,7 @@ In Wave 1 we will create the `Vendor` class.
 - Similarly, every instance of `Vendor` has an instance method named `remove`, which takes in one item
 - This method removes the matching item from the `inventory`
 - This method returns the item that was removed
-- If there is no matching item in the `inventory`, the method should return `False`
+- If there is no matching item in the `inventory`, the method should return `None`
 
 ### Wave 2
 
