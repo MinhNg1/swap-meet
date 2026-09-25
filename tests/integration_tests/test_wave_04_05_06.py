@@ -84,15 +84,14 @@ def test_integration_wave_04_05_06():
     print(f"valentina.inventory, {valentina.inventory}")
 
     # assert result
-    # assert len(camila.inventory) == 3
-    # assert item_electronics2 in camila.inventory
-    # assert item_electronics1 in valentina.inventory
-    # assert item_decor2 in camila.inventory
+    assert len(camila.inventory) == 3
+    assert item_electronics2 in camila.inventory
+    assert item_electronics1 in camila.inventory
+    assert item_decor2 in camila.inventory
 
-    # assert len(valentina.inventory) == 3
-
-    # assert item_decor1 in valentina.inventory
-    # assert item_clothing2 in valentina.inventory
-    # assert item_clothing1 in camila.inventory
+    assert len(valentina.inventory) == 3
+    assert item_clothing1 in valentina.inventory
+    assert item_decor1 in valentina.inventory
+    assert item_clothing2 in valentina.inventory
 
 
